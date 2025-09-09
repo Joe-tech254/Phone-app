@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  
+  <style>
+  
+    h2{
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+    a{
+      text-decoration: none;
+    }
+  </style>
+</head>
+  <title>shop</title>
+</head>
+
+<body>
+    <section id="header">
+    <a href="#"><img src="/images/logo3.png" class="logo" alt=""></a>
+    
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html">home</a></li>
+        <li><a href="shop.html">shop</a></li>
+      
+        <li><a href="about.html">about</a></li>
+        <li><a class="active" href="contact.html">contact</a></li>
+        <li><a id="lg-bag" href="cart.html"><i class="fa fa-shopping-basket"></i></a></li>
+        <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+      </ul>
+      </div>
+      <div id="mobile">
+         <a href="cart.html"><i class="fa fa-shopping-basket"></i></a>
+          <i id="bar" class="fas fa-outdent"></i>
+        </div>
+
+  </section>
+  
+  <section id="page-header">
+    <h2>#let's_talk</h2>
+    <p>LEAVE A MESSAGE.we love to from you </p>
+  </section>
+  
+  <section id="contact-details">
+    <div class="details">
+      <span>GET IN TOUCH</span>
+      <h2>visit our agency location or contact us today</h2>
+      <h3>head office</h3>
+      <div>
+        <li>
+          <i class="fa-regular fa-map"></i>
+          <p>kangaru market center, Jerusalem plaza room 4C</p>
+        </li>
+        
+        <li>
+          <i class="fa-regular fa-envelope"></i>
+          <p>josemwaurangugi123@gmail.com</p>
+        </li>
+        
+        <li>
+          <i class="fas fa-phone-alt"></i>
+          <p>tel +254796935621</p>
+        </li>
+        
+        <li>
+          <i class="fa-regular fa-clock"></i>
+          <p>sunday to friday: 9:00am to 17:00pm</p>
+        </li>
+        
+        
+      </div>
+    </div>
+    
+    <div class="map">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.668512288246!2d37.4579438!3d-0.49651229999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18262d96ae1af78d%3A0xefee418dcd12bdda!2sKANGARU%20MARKET!5e0!3m2!1sen!2ske!4v1753013336726!5m2!1sen!2ske" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+  
+  <section id="form"  class="section-p1">
+    
+    <h2>Contact Us</h2>
+    <p> we like to hear from you</p>
+  <form action="https://formspree.io/f/mjkogrjv" method="POST" />
+    <input type="text" name="name" placeholder="Your Full Name" required />
+    <input type="email" name="email" placeholder="Your Email Address" required />
+    <input type="tel" name="phone" placeholder="Your Phone Number" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit" class="norma">Send Message</button>
+  </form>
+  </section>
+
+  <section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+      <h4>sign up for newsletter</h4>
+      <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+    </div>
+    
+    <div class="form">
+      <input type="text" placeholder="your email address">
+      <button class="normal">sign up</button>
+    </div>
+  </section>
+  
+  <footer class="section-p1">
+    <div class="col">
+      <img class="logo" src="/images/loo.png" alt="">
+      <h4>Contact</h4>
+      <p><strong>address: </strong> Nakuru-nairobi highway, karura street,kenya</p>
+      <p><strong>phone: </strong> +254796935621 / +254101004478</p>
+      <p><strong>Hours: </strong> 08:00 - 18:00pm, mon - fri</p>
+      <div class="follow">
+        <h4>follow us</h4>
+        <div class="icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-tiktok"></i>  
+          <i class="fab fa-whatsapp"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>About</h4>
+      <a href="#">About us</a>
+      <a href="#">Derivary Information</a>
+      <a href="#">privacy policy</a>
+      <a href="#">terms & conditions</a>
+      <a href="#">Contact Us</a>
+    </div>
+    
+      <div class="col">
+      <h4>My Account</h4>
+      <a href="#">sign in</a>
+      <a href="#">View Cart</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Truck my order</a>
+      <a href="#">Help</a>
+    </div>
+    <div class="col install">
+      <h4>Install App</h4>
+      <p>From App Store or Google Play</p>
+      <div class="row">
+        <img  src="/images/morepesa.png" alt="">
+        <img src="" alt="">
+      </div>
+      <p>secured payment Gateways</p>
+      <img src="/images/mpesa2.jpeg" alt="">
+    </div>
+    <div class="copyright">
+      <p>©️  2024, Joetech -HTML CSS  template</p>
+    </div>
+  </footer>
+ 
+ <script>
+   const bar = document.getElementById('bar');
+const close = document.getElementById('close');
+const nav = document.getElementById('navbar');
+
+if (bar) (
+  bar.addEventListener('click', () => {
+    nav.classList.add('active');
+  })
+)
+
+if (close) (
+  close.addEventListener('click', () => {
+    nav.classList.remove('active');
+  })
+)
+ </script>
+</body>
+
+</html>
