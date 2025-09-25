@@ -939,8 +939,8 @@ form { max-width: 800px;
        height: 20vh;
    }
    #banner3{
-       padding: 0px 20px;
-       gap: 1.2px;
+       padding: 0px 1px;
+       
    }
    #banner3 .banner-box h2{
        font-size: 15px;
